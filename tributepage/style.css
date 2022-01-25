@@ -1,0 +1,61 @@
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Corinthia', cursive;
+   
+}
+#title h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+    max-width: 1000px;
+    background-color:rgb(146, 130, 130);
+    color:darkgreen;
+
+}
+#img-div{
+    width: 100%;
+
+}
+#img-div img{
+    width: 100%;
+    align-items: center;
+
+}
+.tribute-info{
+    text-align:justify;
+    width: 90%;
+    margin-left:25px;
+}
+.tribute-info h3
+{
+    text-align: center;
+}
+#img-caption
+{
+text-align: center;
+}
+#button
+{
+    text-align: center;
+}
+#button:hover{
+    color: lightyellow;
+}
