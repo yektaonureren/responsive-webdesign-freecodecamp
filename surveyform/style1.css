@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:brown;
+  }
+  #title{
+    text-align:center;
+    font-size:3rem;
+    color:aqua;
+  }
+#survey-form
+{
+  display:flex;
+  flex-direction:column;
+  justfiy-content:center;
+  align-items:center;
+  
+}
+  #name{
+    width:100%;
+    display:block;
+    margin:auto;
+    text-align:center;
+  }
+  
+.nameetc {
+  background-color:wheat;
+  margin:auto;
+}
+
+  
+  
